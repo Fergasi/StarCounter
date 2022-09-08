@@ -1,0 +1,89 @@
+body {
+  background: #ffefba;
+  background: -webkit-linear-gradient(to top, #ffefba, #ffffff);
+  background: linear-gradient(to top, #ffefba, #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  height: 100vh;
+}
+
+.card-header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 5vh;
+  padding-bottom: 5px;
+  border-bottom: solid 1px gray;
+  height: fit-content;
+}
+
+.menu {
+  margin-right: 20px;
+}
+
+#plus {
+  background-color: rgb(184, 175, 175);
+  width: 30px;
+  height: 25px;
+  font-size: large;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+#minus {
+  background-color: rgb(184, 175, 175);
+  width: 30px;
+  height: 25px;
+  font-size: large;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+#numberCounter {
+  font-size: larger;
+}
+
+h2 {
+  width: 60vw;
+  text-align: center;
+}
+
+.checked {
+  color: orange;
+}
+
+.starCounter {
+  padding-top: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counterBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+  height: 70px;
+  margin: -10px;
+  margin-left: 20px;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.76);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: #ffefba;
+}
